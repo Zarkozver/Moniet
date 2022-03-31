@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <title>Test</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark py-3 position-fixed px-sm-5 px-1 navbar-light-sm"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="articles.html">New Collection</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="about.html">About us</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://zarkozver.github.io/portfolio/"
+                    target="blank"
+                    >Author</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <section id="carousel">
+      <div class="container-fluid p-0">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center carousel-text"
+              >
+                <div class="text-center text-white">
+                  <h2 class="display-4 primary-font text-lowercase">
+                    Title Sample
+                  </h2>
+                  <h3 class="display-4 primary-font text-lowercase">
+                    Description Example
+                  </h3>
+                  <a
+                    href="#"
+                    class="btn primary-font btn-dark text-lowercase btn-main mt-3"
+                  >
+                    Click here!
+                  </a>
+                </div>
+              </div>
+              <img src="img/carousel-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <div
+                class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center carousel-text"
+              >
+                <div class="text-center text-white">
+                  <h2 class="display-4 primary-font text-lowercase">
+                    Title Sample
+                  </h2>
+                  <h3 class="display-4 primary-font text-lowercase">
+                    Description Example
+                  </h3>
+                  <a
+                    href="#"
+                    class="btn primary-font btn-dark text-lowercase btn-main mt-3"
+                  >
+                    Click here!
+                  </a>
+                </div>
+              </div>
+              <img src="img/carousel-2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <div
+                class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center carousel-text"
+              >
+                <div class="text-center text-white">
+                  <h2 class="display-4 primary-font text-lowercase">
+                    Title Sample
+                  </h2>
+                  <h3 class="display-4 primary-font text-lowercase">
+                    Description Example
+                  </h3>
+                  <a
+                    href="#"
+                    class="btn primary-font btn-dark text-lowercase btn-main mt-3"
+                  >
+                    Click here!
+                  </a>
+                </div>
+              </div>
+              <img src="img/carousel-3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- CATEGORY -->
+    <section id="category" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <a href="#" class="text-decoration-none">
+              <div class="category-img-1 p-5 my-md-0 mb-2">
+                <h3 class="primary-font text-dark">20% sale</h3>
+                <p>
+                  <a href="#" class="text-dark text-decoration-none text-end">
+                    shop now
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </a>
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <a href="#" class="text-decoration-none"
+              ><div class="category-img-3 p-5 my-md-0 my-2">
+                <h3 class="primary-font text-white">spring collection</h3>
+                <p>
+                  <a href="#" class="text-white text-decoration-none">
+                    shop now
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </a>
+                </p></div
+            ></a>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <a href="#" class="text-decoration-none"
+              ><div class="category-img-2 p-5 my-md-0 my-2">
+                <h3 class="primary-font text-dark">summer collection</h3>
+                <p>
+                  <a href="#" class="text-dark text-decoration-none">
+                    shop now
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </a>
+                </p></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURED ARTICLES -->
+    <section id="featured">
+      <div class="container py-md-5 py-3">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-lg-4 col-sm-12 p-4">
+            <h2 class="display-3 secondary-font text-end featured-display">
+              New!
+            </h2>
+            <h3 class="primary-font text-end featured-name">
+              spring/summer 2021.
+            </h3>
+            <p class="text-end text-muted primary-font featured-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit officia dolor iste, corporis non reiciendis?
+            </p>
+            <p class="text-end">
+              <a
+                href="#"
+                class="text-end text-dark mt-3 featured-link text-decoration-none"
+                >learn more
+                <span class="iconify-inline" data-icon="bi:arrow-right"></span
+              ></a>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/featured-1.jpg"
+                alt="featured img"
+                class="img-fluid"
+              />
+              <div class="row p-2 pb-0">
+                <div class="col-6">
+                  <p class="primary-font text-black m-0 article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price m-0">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt m-0"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-4">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/featured-2.jpg"
+                alt="featured img"
+                class="img-fluid"
+              />
+              <div class="row p-2 pb-0">
+                <div class="col-6">
+                  <p class="primary-font text-black m-0 article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price m-0">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt m-0"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DISPLAY BANNER -->
+    <section id="banner">
+      <div class="container-fluid py-5">
+        <h2 class="display-1 text-center secondary-font banner-text">
+          Discount Weekend
+        </h2>
+      </div>
+    </section>
+    <!-- SHOP -->
+    <section id="shop">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <p
+            class="text-muted text-center display-3 secondary-font m-0 written-title"
+          >
+            don't wait
+          </p>
+          <p class="display-4 primary-font text-center">shopping everyday</p>
+
+          <div class="row"><hr class="w-25 mx-auto border-top-2" /></div>
+          <div class="row mx-auto mb-0">
+            <div
+              class="col-lg-6 offset-lg-3 col-md-9 mx-auto col-sm-12 offset-sm-0"
+            >
+              <p
+                class="text-muted primary-font text-center mx-auto d-block mb-0"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Commodi omnis suscipit totam eum non nemo voluptatibus ducimus
+                ipsa! Vitae ex eum veniam quo odit harum facilis deleniti,
+                delectus ratione accusamus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex mt-5 shop-gallery">
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-1.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-2.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-3.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-4.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex shop-gallery">
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-5.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-6.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-7.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 article">
+            <a href="#" class="text-decoration-none article-a">
+              <img
+                src="img/showcase-8.jpg"
+                alt="showcase 1"
+                class="img img-fluid article-img"
+              />
+              <div class="row p-2">
+                <div class="col-6">
+                  <p class="primary-font text-black article-name">shoes</p>
+                </div>
+                <div class="col-6">
+                  <p class="primary-font text-muted text-end article-price">
+                    $250
+                  </p>
+                  <p
+                    class="primary-font text-muted text-end d-none article-alt"
+                  >
+                    add to cart
+                    <span
+                      class="iconify-inline"
+                      data-icon="bi:arrow-right"
+                    ></span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO MODAL` -->
+    <div
+      id="promo"
+      class="d-flex position-relative justify-content-center align-items-center"
+    >
+      <div class="dark-overlay"></div>
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center"
+      >
+        <div class="row">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <span
+              class="iconify text-white display-1 play-icon"
+              data-icon="gg:play-button-o"
+            ></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 class="text-white primary-font mb-4">information</h3>
+            <p class="text-muted">
+              <span
+                class="iconify-inline"
+                data-icon="la:phone"
+                data-width="20"
+              ></span>
+              069/123-3333
+            </p>
+            <p class="text-muted">
+              <span
+                class="iconify-inline"
+                data-icon="la:envelope"
+                data-width="20"
+              ></span>
+              zarko&#46;jovic&#46;20&#46;21&#64;ict&#46;edu&#46;rs
+            </p>
+            <p class="text-muted">
+              <span
+                class="iconify-inline"
+                data-icon="la:clock"
+                data-width="20"
+              ></span>
+              10:00am - 20:00pm
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="text-white primary-font mb-4 text-center">about</h3>
+            <p class="text-muted text-center">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. At animi
+              ex itaque nihil accusantium? Cumque enim sunt exercitationem
+              corporis vel voluptas reiciendis non porro voluptatem nulla iure,
+              consequatur esse? Cum?
+            </p>
+          </div>
+
+          <div class="col-sm-4 text-end">
+            <h3 class="text-white primary-font mb-4">company name</h3>
+            <p class="text-muted">&copy; company 2022</p>
+            <p class="text-muted d-flex justify-content-end">
+              <a href="#" class="text-decoration-none text-muted mx-2"
+                ><span
+                  class="iconify-inline"
+                  data-icon="la:instagram"
+                  data-width="30"
+                ></span
+              ></a>
+              <a href="#" class="text-decoration-none text-muted mx-2"
+                ><span
+                  class="iconify-inline"
+                  data-icon="la:sitemap"
+                  data-width="30"
+                ></span>
+              </a>
+              <a href="#" class="text-decoration-none text-muted mx-2"
+                ><span
+                  class="iconify-inline"
+                  data-icon="la:sass"
+                  data-width="30"
+                ></span
+              ></a>
+              <a href="#" class="text-decoration-none text-muted mx-2"
+                ><span
+                  class="iconify-inline"
+                  data-icon="la:facebook-square"
+                  data-width="30"
+                ></span
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- MODAL -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+      id="modal-promo"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered rounded-0">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Promo Video</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              src="https://www.youtube.com/embed/aEsTawsRBVY"
+              title="YouTube video player"
+              frameborder="0"
+              class="w-100 modal-height"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger rounded-0 bg-dark border-0"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Iconify Design -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <!-- Boostrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
